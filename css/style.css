@@ -1,0 +1,631 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container-logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #5b3a30;
+}
+
+.container-logo img {
+    height: 60px;
+    margin-right: 10px;
+}
+
+.container-nav {
+    display: flex;
+    margin-right: auto;
+    margin-left: 22%;
+}
+
+.container-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.container-nav li {
+    margin: 0 50px;
+}
+
+.container-nav a {
+    text-decoration: none;
+    color: #5b3a30;
+    font-size: 20px;
+}
+
+.login span {
+    font-size: 36px;
+    color: #5b3a30;
+}
+
+.banner {
+    width: 100vw;
+    height: 70vh;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.cidades {
+    width: 100vw;
+    height: 15vh;
+    background-image: url(../imagens/bglojas.jpg);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cidades select.custom-select {
+    width: 200px;
+    margin: 0 5px;
+    border-radius: 10px;
+    border: none;
+    height: auto;
+    padding: 5px 10px;
+    color: #482316;
+}
+
+.doces {
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.doces h1 {
+    color: #5b3a30;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.doces-cards {
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    width: 266px;
+    height: 378px;
+    margin-right: 25px;
+    border-radius: 35px;
+}
+
+.cards h1 {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -80px;
+}
+
+/* --------------------------------------------PRODUTOS---------------------------------------------------- */
+
+.produtos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 20px;
+}
+
+.produtos-card {
+    width: 300px;
+    margin: 20px;
+    background-color: #f5eadd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.produtos-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.produtos-card-content {
+    padding: 20px;
+}
+
+.produtos-card h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #5b3a30;
+    text-align: center;
+}
+
+.produtos-card p {
+    color: #666;
+    text-align: center;
+}
+
+.produtos-card button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #5b3a30;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.banner-doces {
+    width: 100vw;
+    height: 70vh;
+    background-image: url(../imagens/bgdoces.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-doces h1 {
+    font-size: 60px;
+}
+
+.banner-doces p {
+    font-size: 20px;
+}
+
+/* ----------------------------------------------------------------LOJAS---------------------------------------- */
+.lojas {
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.lojas h1 {
+    color: #5b3a30;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.lojas-container {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.loja-card {
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.loja-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.loja-card h2 {
+    color: #5b3a30;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.loja-card p {
+    color: #5b3a30;
+    font-size: 14px;
+}
+
+/* --------------------------------------------------CONTATO----------------------------------- */
+
+.contato-container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    color: #5b3a30;
+}
+
+.contato-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato-form label {
+    margin-bottom: 8px;
+}
+
+.contato-form input,
+.contato-form textarea {
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+.contato-form button {
+    padding: 12px;
+    background-color: #5b3a30;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* ------------------------------------------LOGIN------------------------------ */
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(../imagens/bglogin.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.login-card {
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    padding: 30px;
+    color: #5b3a30;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.login-card input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-card button {
+    width: 80%;
+    padding: 10px;
+    background-color: #5b3a30;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* --------------------------------------DASHBOARD ADMIN------------------------------ */
+.dashboard-logo {
+    text-align: center;
+}
+
+.dashboard-logo img {
+    width: 70px;
+    margin-top: 20px;
+}
+
+.dashboard-container {
+    margin-left: auto;
+    width: 83vw;
+    margin-top: 50px;
+    padding: 40px;
+}
+
+.dashboard-container .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    gap: 40px;
+}
+
+.dashboard-container .stat-box {
+    flex: 1;
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container .orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.dashboard-container .orders-table th,
+.orders-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.dashboard-menu {
+    position: absolute;
+    width: 14vw;
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.021) 1.95px 1.95px 2.6px;
+    top: 0;
+}
+
+.menu-conteudo header {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5b3a30;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #482316;
+}
+
+.menu-conteudo nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.menu-conteudo ul a {
+    color: #482316;
+    list-style: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.menu-conteudo li {
+    list-style: none;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+/* ------------------------------------PRODUTOS ADMIN--------------------- */
+
+.produtos-admin-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    margin-left: 190px;
+}
+
+.produtos-admin-container ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 200px;
+    list-style: none;
+}
+
+.produtos-admin-container .produto-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produto-card button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #5b3a30;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.deslogar {
+    position: absolute;
+    bottom: 0;
+}
+
+/* --------------------------------------------------------DESCONTOS------------------------------------------------------------------ */
+
+.descontos-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    margin-left: 190px;
+}
+
+
+.desconto-section {
+    margin-top: 110px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #482316;
+}
+
+.desconto-card {
+    width: 300px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.desconto-card-content {
+    padding: 20px;
+}
+
+.desconto-card h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #5b3a30;
+}
+
+.desconto-card p {
+    color: #666;
+}
+
+.desconto-card button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #5b3a30;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* --------------------------------------------------------CLIENTES------------------------------------------------------------------ */
+.clientes-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    margin-left: 190px;
+}
+
+.clientes-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 200px;
+    list-style: none;
+    width: 1300px;
+    flex-wrap: wrap;
+}
+
+.clientes-card {
+    width: 300px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.clientes-card-content {
+    padding: 20px;
+}
+
+.clientes-card h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.clientes-card p {
+    color: #666;
+}
+
+.clientes-card button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #5b3a30;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* ----------------------------------------------RELATORIOS---------------------------------------------------------- */
+
+.relatorios-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    margin-left: 190px;
+    margin-top: 100px;
+}
+
+.relatorios-section {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #482316;
+}
+
+.relatorios-card {
+    width: 300px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.relatorios-card-content {
+    padding: 20px;
+
+}
+
+.relatorios-card h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #482316;
+}
+
+.relatorios-card p {
+    color: #482316;
+}
+
+.relatorios-card button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #5b3a30;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
